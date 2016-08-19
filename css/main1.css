@@ -1,0 +1,88 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+    background: #22282e;
+    height:60px;
+    position: relative;
+    width: 100%;
+}
+.btn-enviar{
+	background: #81A953;
+	color: white;
+}
+.img1{
+	margin-top: 65px !important;
+	max-width: 100% !important;
+}
+.red{
+	width: 100%;
+}
+.menu{
+	padding-right: 36em;
+}
+.menu1{
+	    padding-left: 16em;
+    padding-top: 30px;
+}
+.menu2{
+	    padding-left: 10em;
+    padding-top: 30px;
+}
+
+a:hover{
+	text-decoration: none !important;
+	background-color:rgba(0, 0, 0, 0.0001)!important;
+}
+.agency{
+	    padding-top: 46px;
+}
+.clientes{
+	    padding-top: 12%;
+}
+.navbar-inverse{
+	background: #94CD1E !important;
+}
+
+#top-slider1 .slider-bg1 {
+    	background: url(../img/gigesoft/bg.jpg) 0 0 repeat fixed;	
+    	background-color: red ;
+    	margin: 0 auto;
+    	padding: 0;
+    	position: absolute;
+    	z-index: 100;
+    	width: 100%;
+    	height: 800px;
+    }
+    #top-slider1 {
+    	background: url(../img/gigesoft/bg.jpg) 0 0 no-repeat fixed;
+    	width: 100%;
+    	height: 600px;
+     	text-align: center;
+    	z-index: 100;
+    	    background-size: cover;
+    }
+    .info{
+    	padding-top: 40px;
+    }
+   #about{
+   		background: #94CD1E !important;
+   }
+   #contact{
+   	background: #94CD1E !important;
+   }
+   #foot{
+   	background: white !important;
+
+   }
+ .date{
+ 	color: #25387D !important;
+ }
+ .date p{
+ 	color: #25387D !important;
+ }
+ .hr{
+ 	background: grey !important;
+ }

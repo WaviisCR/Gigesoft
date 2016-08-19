@@ -1,0 +1,44 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+    background: #22282e;
+    height:60px;
+    position: relative;
+    width: 100%;
+}
+.btn-enviar{
+	background: #81A953;
+	color: white;
+}
+.img1{
+	margin-top: 65px !important;
+	max-width: 100% !important;
+}
+.red{
+	width: 100%;
+}
+.menu{
+	padding-right: 36em;
+}
+.menu1{
+	    padding-left: 16em;
+    padding-top: 30px;
+}
+.menu2{
+	    padding-left: 10em;
+    padding-top: 30px;
+}
+
+a:hover{
+	text-decoration: none !important;
+	background-color:rgba(0, 0, 0, 0.0001)!important;
+}
+.agency{
+	    padding-top: 46px;
+}
+.clientes{
+	    padding-top: 12%;
+}

@@ -325,7 +325,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid rgba(0, 0, 0, 0.0001)!important;
 }
 .sr-only {
   position: absolute;
@@ -500,7 +500,7 @@ h6,
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.0001)!important;
 }
 ul,
 ol {
@@ -613,7 +613,7 @@ blockquote small:before {
 blockquote.pull-right {
   padding-right: 15px;
   padding-left: 0;
-  border-right: 5px solid #eeeeee;
+  border-right: 5px solid rgba(0, 0, 0, 0.0001)!important;
   border-left: 0;
 }
 blockquote.pull-right p,
@@ -1685,7 +1685,7 @@ output {
 .form-control[readonly],
 fieldset[disabled] .form-control {
   cursor: not-allowed;
-  background-color: #eeeeee;
+  background-color: rgba(0, 0, 0, 0.0001)!important;
 }
 textarea.form-control {
   height: auto;
@@ -3439,7 +3439,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color: rgba(0, 0, 0, 0.0001)!important;
 }
 .nav > li.disabled > a {
   color: #999999;
@@ -3454,7 +3454,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-  background-color: #eeeeee;
+  background-color: rgba(0, 0, 0, 0.0001)!important;
   border-color: #f1c40f ;
 }
 .nav .open > a .caret,
@@ -3486,7 +3486,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   border-radius: 4px 4px 0 0;
 }
 .nav-tabs > li > a:hover {
-  border-color: #eeeeee #eeeeee #dddddd;
+  border-color: rgba(0, 0, 0, 0.0001)!important rgba(0, 0, 0, 0.0001)!important #dddddd;
 }
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
@@ -3859,6 +3859,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
+
+
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
@@ -3866,16 +3868,17 @@ textarea.input-group-sm > .input-group-btn > .btn {
     float: none;
     width: auto;
     margin-top: 0;
-    background-color: transparent;
+    background-color: white;
     border: 0;
     box-shadow: none;
   }
   .navbar-nav .open .dropdown-menu > li > a,
   .navbar-nav .open .dropdown-menu .dropdown-header {
-    padding: 5px 15px 5px 25px;
+    padding: 5px 15px 5px 12px;
   }
   .navbar-nav .open .dropdown-menu > li > a {
     line-height: 20px;
+    font-size: 13px;
   }
   .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -4127,7 +4130,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-color: #1f2a41;
+  border-color: rgba(255, 255, 255, 0);
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
@@ -4233,7 +4236,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus {
-  background-color: #eeeeee;
+  background-color: rgba(0, 0, 0, 0.0001)!important;
 }
 .pagination > .active > a,
 .pagination > .active > span,
@@ -4332,7 +4335,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .pager li > a:hover,
 .pager li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color: rgba(0, 0, 0, 0.0001)!important;
 }
 .pager .next > a,
 .pager .next > span {
@@ -4457,7 +4460,7 @@ a.list-group-item.active > .badge,
   font-weight: 200;
   line-height: 2.1428571435;
   color: inherit;
-  background-color: #eeeeee;
+  background-color: rgba(0, 0, 0, 0.0001)!important;
 }
 .jumbotron h1 {
   line-height: 1;

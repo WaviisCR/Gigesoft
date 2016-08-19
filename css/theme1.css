@@ -21,16 +21,14 @@
 -------------- */
 
 .navbar-inverse {
-  background-color: #27ad60;
-  -webkit-box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.9);
-  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.9);
+  background-color: #099FC2;
 }
 
 /* 2. About Us
 -------------- */
 
     #about {
-	    background: #2c3e50;
+	    background: #25387D;
 	    padding: 120px 0px ;
 	    display: block;
         width: 100%;
@@ -58,7 +56,7 @@
     
     #service {
 	    background: #27ad60;
-	    padding: 120px 0px;
+	    padding: 30px 0px;
 	    display: block;
         width: 100%;
         overflow: hidden;
@@ -287,7 +285,7 @@
 -------------- */
     
     #clients {
-	    background: #2c3e50;
+	    background: white;
 	    padding: 120px 0px ;
 	    display: block;
         width: 100%;
@@ -305,7 +303,7 @@
     }
     
      #clients h1 {
-	    color: #fff;
+	    color: #20224B;
     }
     
     .nbs-flexisel-item {
@@ -314,12 +312,12 @@
     
     .nbs-flexisel-nav-left,
     .nbs-flexisel-nav-right {
-        background-color: #443e44 !important;
+        background-color: #81A953 !important;
     }
     
     .nbs-flexisel-nav-left:hover,
     .nbs-flexisel-nav-right:hover {
-        background-color: #e67e22 !important;
+        background-color: #20224B !important;
     }
      
 /* 8. FACTS
@@ -374,7 +372,9 @@
 	    -webkit-box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.9);
 	    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.9);
     }
-    
+    .donec{
+        color: white !important;
+    }
     #contact h1 {
 	    color: #fff;
     }
@@ -434,14 +434,14 @@
     }
     
     .head-border-grey {
-	    background: #443e44;
+	    background: white;
     }	
 
 /* 12. General
 -------------- */
  
     .head p {
-	    color: #fff;
+	    color: #20224B;
     }
     
     @media only screen and (max-width: 767px) {
